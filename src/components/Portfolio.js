@@ -40,12 +40,16 @@ const Portfolio = () => {
                   <a
                     href={project.live}
                     className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Live
                   </a>
                   <a
                     href={project.code}
                     className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Code
                   </a>
