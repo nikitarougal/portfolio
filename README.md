@@ -4,7 +4,7 @@ This is my personal portfolio website built using React and deployed on Netlify.
 
 ## Live Demo
 
-You can see the live demo of the website at: [https://imaginative-moxie-bd8557.netlify.app](Netlify) to view it in your browser.
+You can see the live demo of the website at: <https://imaginative-moxie-bd8557.netlify.app> to view it in your browser.
 
 ## Technologies Used
 
@@ -24,7 +24,7 @@ You can see the live demo of the website at: [https://imaginative-moxie-bd8557.n
 
 If you want to run this website locally, follow these steps:
 
-1. Clone the repository: git clone `https://github.com/nikitarougal/portfolio.git`
+1. Clone the repository: `git clone https://github.com/nikitarougal/portfolio.git`
 2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
