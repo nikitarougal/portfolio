@@ -1,8 +1,16 @@
 import React from 'react';
 import currency from '../assets/currency.png';
+import recruiting from '../assets/recruiting.png';
 
 const Portfolio = () => {
   const projects = [
+    {
+      img: currency,
+      title: 'recruiting',
+      desc: ' Salesforce Recruiting App ',
+      live: 'https://nikitarougal.github.io/Lightning-Out-Currency-App/',
+      code: 'https://saas-customization-5419-dev-ed.scratch.my.site.com/RecruitingApp',
+    },
     {
       img: currency,
       title: 'currency',
