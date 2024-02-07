@@ -6,17 +6,17 @@ const Portfolio = () => {
   const projects = [
     {
       img: currency,
-      title: 'recruiting',
-      desc: ' Salesforce Recruiting App ',
-      live: 'https://nikitarougal.github.io/Lightning-Out-Currency-App/',
-      code: 'https://saas-customization-5419-dev-ed.scratch.my.site.com/RecruitingApp',
-    },
-    {
-      img: currency,
       title: 'currency',
       desc: ' Salesforce Lightning Web Component (LWC) application ',
       live: 'https://nikitarougal.github.io/Lightning-Out-Currency-App/',
       code: 'https://github.com/nikitarougal/lwc-currency-rates',
+    },
+    {
+      img: recruiting,
+      title: 'recruiting',
+      desc: ' Salesforce Recruiting App ',
+      live: 'https://nikitarougal.github.io/Lightning-Out-Currency-App/',
+      code: 'https://saas-customization-5419-dev-ed.scratch.my.site.com/RecruitingApp',
     },
   ];
 
@@ -25,12 +25,12 @@ const Portfolio = () => {
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
           <h2 className="text-4xl font-bold mb-5 pb-2">Portfolio</h2>
-
+          {/* 
           <p className="pb-5">
             The Currency App is a Salesforce Lightning Web Component (LWC) application that
             allows users to retrieve currency rates, display them in a table, and convert
             currency amounts using current exchange rates.
-          </p>
+          </p> */}
         </div>
       </div>
 
